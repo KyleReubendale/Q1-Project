@@ -1,0 +1,33 @@
+.centerLogo{
+  display: grid;
+  grid-column: 33% 33% 33%;
+  grid-row: auto;
+}
+.mainLogo{
+  grid-column-start: 2;
+  border-radius: 25px;
+  position:relative;
+}
+.logoSmall{
+  border-radius: 25px;
+  float: left;
+}
+
+input{
+  max-width: 235px;
+}
+
+.form{
+  display:flex;
+  position: relative;
+  justify-content: center !important;
+  margin-bottom: 20px;
+}
+form .inputs{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+button{
+  background-color: #3FC6C7;
+}
