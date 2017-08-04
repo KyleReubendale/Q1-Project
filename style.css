@@ -11,23 +11,36 @@
 .logoSmall{
   border-radius: 25px;
   float: left;
+  margin-bottom:20px;
 }
 
 input{
   max-width: 235px;
 }
+form{
+  display:flex;
+}
+table{
+  /*margin-top: 10px;*/
+  /*max-width: 100%;*/
+  /*table-layout: fixed;*/
+  font-size: .9vw;
 
-.form{
+}
+th{
+  padding:10px 5px;
+}
+/*.form{
   display:flex;
   position: relative;
   justify-content: center !important;
   margin-bottom: 20px;
-}
-form .inputs{
+}*/
+/*form .inputs{
   display: flex;
   justify-content: center !important;
   align-items: center;
-}
+}*/
 button{
   background-color: #3FC6C7;
 }

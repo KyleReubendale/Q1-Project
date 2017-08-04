@@ -1,8 +1,8 @@
 $('form').on('submit', function(event){
   event.preventDefault();
-$('table').show();
-$('.centerLogo').remove();
-$('.logoSmall').show();
+$('.mainLogo').remove();
+$('.logoSmall').fadeIn(1000);
+$('table').fadeIn(1000);
 var input = $('input').val();
  var enteredData = [];
  var $nonProfits = $("#nonProfits");
@@ -49,5 +49,4 @@ console.log(enteredData);
 
 $('input').val("");
 $('.mainLogo').animate({'right':'960px'},1000);
-
 });
