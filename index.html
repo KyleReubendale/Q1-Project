@@ -8,37 +8,58 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logoSmall.png">
 </head>
 
 <body>
-  <section class="searchSection">
-    <!-- <form class="" action="index.html" method="post">
-      <label for="zipCode">5 Digit Zipcode
-      <input type="text" patter="[0-9]{5}" name="zipCode" value=""></label>
-      <button type="submit" name="button">Search</button>
 
-    </form> -->
+<div class="splash">
+
+<img class="mainSplash" src="mainsplashcopy.jpeg" alt="">
+</div>
+<section class= "wrapper">
+  <h2 class="sentence"> Find Non-Profits near you that support:
+  <div class="slidingVertical small-centered">
+  <span>FOOD JUSTICE</span>
+  <span>ENVIRONMENT</span>
+  <span>COMMUNITY</span>
+  <span>EQUALITY</span>
+  <span>HUMAN RIGHTS</span>
+  </div>
+</h2>
+</section>
+
+  <section class="searchSection" id="searchSection">
+
      <img style="display: none" class="logoSmall" src="logoSmall.png" alt="">
-     <!-- <div class="row"> -->
-      <form class="">
+      <form class="" action="index.aspx#here">
         <div class="row">
           <div class="input-field">
-            <input type="text" pattern="[0-9]{5}" text="">
+            <input type="text"  text="">
             <label for="icon_prefix">5 Digit Zipcode</label>
           </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action" background-color="#3FC6C7">Submit
+
+          <button class="btn waves-effect waves-light" type="submit"  name="action" background-color="#3FC6C7">Submit
           <i class="material-icons right">submit</i>
         </button>
+
         </div>
       </form>
-    <!-- </div> -->
   </section>
 
   <section class="centerLogo">
+
     <img class="mainLogo" src="logoFull.png" alt="">
-    <!-- <p>Connecting you with the Non-Profits around you</p> -->
+
   </section>
-  <section class="returnedData">
+  <!-- <section class="writing">
+    <h1>Helping connect people with the Non-Profits in there area.</h1>
+    <h3>Search by zipcode, then if you found one you like and want the mission statement, search again!</h3>
+  </section> -->
+  <section class="returnedData" id="here">
+    <div class ="missionStatement" id="missionStatement">
+
+    </div>
     <table style="display: none" id="nonProfits">
       <tr>
         <th id="name">Name</th>
@@ -49,18 +70,21 @@
         </linkify>
       </tr>
     </table>
+    <!-- <table class= "purpose" style="display: none" id="purpose">
+      <tr>
+        <th id="purposeName">Name</th>
+        <th id="purposeDescription">Description</th>
+      </tr>
+    </table> -->
+
   </section>
-  <!-- <div><iframe width="760px" title="Charitable Organizations' Offices in Colorado" height="646px" src="https://data.colorado.gov/w/3qtu-edua/c48n-6dwv?cur=DKAH-KEJkAJ&from=root" frameborder="0"scrolling="no"><a href="https://data.colorado.gov/Nonprofit-Data/Charitable-Organizations-Offices-in-Colorado/3qtu-edua" title="Charitable Organizations' Offices in Colorado" target="_blank">Charitable Organizations' Offices in Colorado</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div> -->
-
-
-
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script type="text/javascript" src="app.js">
   </script>
   <script src="linkify.min.js"></script>
   <script src="linkify-jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 </body>
 
 </html>
