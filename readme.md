@@ -1,6 +1,6 @@
 # Colorado Charity Search
 
-One Paragraph of project description goes here
+
 This project was created to search through the Non-Profits that have offices in Colorado and are registered with the Colorado Secretary of State - Charities Program. It allows you to search for Non-Profits that are located in your zip code.
 
 
