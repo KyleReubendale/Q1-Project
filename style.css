@@ -40,7 +40,6 @@ table {
 .purpose {
   font-size: .9vw;
   max-width: 80%;
-  /*justify-content: center;*/
   margin: auto;
   margin-left: 180px;
   table-layout: fixed;
@@ -67,11 +66,11 @@ button {
   top: 0;
 }
 
-.sentence{
-     color: white;
-     font-size: 45px;
-     text-align: left;
-     margin-bottom: 15px;
+.sentence {
+  color: white;
+  font-size: 45px;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .wrapper {
@@ -79,21 +78,17 @@ button {
   justify-content: center;
   font-family: 'Raleway', sans-serif;
   font-size: 45px;
-  position:relative;
+  position: relative;
   margin-top: -250px;
   margin-bottom: 75px;
 }
-/*.slidingVertical {
-display: inline;
-text-indent: 8px;
-}*/
+
 .slidingVertical {
   display: flex;
   justify-content: center;
   position: relative;
   margin-top: 35px;
 }
-
 
 .slidingVertical span {
   animation: topToBottom 12.5s linear infinite 0s;
@@ -185,7 +180,7 @@ text-indent: 8px;
   }
 }
 
-.missionStatement{
+.missionStatement {
   display: flex;
   justify-content: center;
 }
