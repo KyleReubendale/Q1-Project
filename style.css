@@ -5,9 +5,11 @@
 }
 
 .mainLogo {
+  display: grid;
   grid-column-start: 2;
   border-radius: 25px;
   position: relative;
+  align-items: center;
   justify-content: center;
 }
 
@@ -20,12 +22,7 @@
 .searchSection {
   margin-top: 125px;
 }
-:link{
-  color: #3FC6C7;
-}
-/*input {
-  max-width: 200px;
-}*/
+
 button {
   max-width: 150px;
 }
