@@ -8,7 +8,7 @@ This project was created to search through the Non-Profits that have offices in 
 
 I installed Linkifyjs and ScrollTo, to add a bit more functionality to the website.
 
-**linkifyjs:**
+## **linkifyjs:**
 
 Download the latest release or install via NPM
 
@@ -26,7 +26,7 @@ Add linkify and linkify-jquery to your HTML following jQuery:
 <script src="linkify-jquery.min.js"></script>
 ```
 
-**ScrollTo**
+## **ScrollTo**
 
 The plugin requires jQuery 1.8 or higher.
 
@@ -57,7 +57,7 @@ CDN provided by cdnjs
 
 ## Authors
 
-* **Kyle Reubendale** - *Initial work* -
+ **Kyle Reubendale**
 
 ## License
 
@@ -66,4 +66,4 @@ This project is licensed under the MIT License!
 ## Acknowledgments
 
 * Everyone that helped make this project!
-* Non-Profits in Denver, thank you for doing the work you do! 
+* Non-Profits in Denver, thank you for doing the work you do!
