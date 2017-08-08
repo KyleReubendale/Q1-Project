@@ -20,9 +20,14 @@
 .searchSection {
   margin-top: 125px;
 }
-
-input {
-  max-width: 235px;
+:link{
+  color: #3FC6C7;
+}
+/*input {
+  max-width: 200px;
+}*/
+button {
+  max-width: 150px;
 }
 
 form {
