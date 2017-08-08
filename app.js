@@ -34,7 +34,7 @@ $('form').on('submit', function(event) {
       });
       addlink();
       $('body').linkify();
-      $('body').scrollTo($('#searchSection'),[1000]);
+      $('body').scrollTo($('#searchSection'), [1000]);
     }
   });
   $.ajax({
@@ -47,13 +47,12 @@ $('form').on('submit', function(event) {
     success: function(data) {
       console.log(data[0]);
       $.each(data, function(i, data) {
-$missionStatement.append('<p> '+ data.statementofpurpose +'</p>')
-        // $purposeName.append('<tr><td> ' + data.name + '</td></tr>');
-        // $purposeDescription.append('<tr><td> ' + data.statementofpurpose + '</td></tr>');
+        $missionStatement.append('<p> ' + data.statementofpurpose + '</p>')
       });
-        $('body').scrollTo($('#searchSection'),[1000]);
+      $('body').scrollTo($('#searchSection'), [1000]);
     }
   });
+
   function addlink() {
     $('address').each(function() {
       var link = "<a href='http://maps.google.com/maps?q=" + encodeURIComponent($(this).text()) + "' target='_blank'>" + $(this).text() + "</a>";
