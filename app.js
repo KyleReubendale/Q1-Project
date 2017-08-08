@@ -25,7 +25,6 @@ $('form').on('submit', function(event) {
       "$$app_token": "2gfPSjTNsZ74ijObNhrXjJx22"
     },
     success: function(data) {
-      console.log('success', data);
       $.each(data, function(i, data) {
         $name.append('<tr><td> ' + data.name + ' </td></tr>');
         $address.append('<tr><td><address> ' + data.principaladdress + '</address></td></tr>');
@@ -45,9 +44,8 @@ $('form').on('submit', function(event) {
       "$$app_token": "2gfPSjTNsZ74ijObNhrXjJx22"
     },
     success: function(data) {
-      console.log(data[0]);
       $.each(data, function(i, data) {
-        $missionStatement.append('<p> ' + data.statementofpurpose + '</p>')
+        $missionStatement.append('<p> ' + data.statementofpurpose + '</p>');
       });
       $('body').scrollTo($('#searchSection'), [1000]);
     }
